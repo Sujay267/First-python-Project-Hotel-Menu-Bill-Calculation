@@ -1,13 +1,13 @@
 #loop control-While
 #Restourant veg non veg food and bill
-print("Hello sir/Madam ,\n  Welcome to 'Maharaja Restaurant'")
-print("Which one food did you want ?(Veg or Non-Ved)\n Enter '1' for veg or '2' for non veg. ")
+print("Hello sir/Madam ,\n  Welcome to Maharaja Restaurant")
+print("Which one food did you want ?\n Enter '1' for veg or '2' for non veg. ")
 a=int(input(""))
 while (a!=1) and (a!=2):
     print("Wrong choice , please Enter right choice.")
     print("e.g., If you want veg food then Enter 1")
     print("And If you want Non-veg food then Enter 2")
-    a=input("")
+    a=int(input(""))
 bill=0
 while (a==1) or (a==2):
     if (a==1):
@@ -51,7 +51,7 @@ while (a==1) or (a==2):
                     print("Wrong Choice ,\n Please Enter yes or no")
                     c=input("")
                 if (c=="no"):
-                    print("Your bill is ",bill,"rs.")
+                    print("Your bill is ",bill)
                     bill=bill*0
                     i_no=0
                     a=0
@@ -98,13 +98,12 @@ while (a==1) or (a==2):
                 c=input("")
                 while (c!="yes") and (c!="no"):
                     print("Wrong Choice ,\n please Enter valid choice.(yes or no)")
-                    c=input("")
                 if (c=="no"):
-                    print("Your bill is ", bill,"rs.")
+                    print("Your bill is ", bill)
                     bill = bill * 0
                     i_no = 0
                     a = 0
-                    print("Thank you , for visiting our Restaurant.")
+                    print("Thank you , for visiting our Restaurant")
                 elif (c=="yes"):
                     i_no = 0
                     a = 1
