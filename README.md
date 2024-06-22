@@ -1,4 +1,4 @@
-#Hotel-Menu-&-Bill-Calculation(First-python-Project)
+#First-python-Project-Hotel-Menu-&-Bill-Calculation
 This is my first git repository and I am showing my first project in python. I was build it in my first year of college.
 <br>
 Author :- Sujay Vanjari
